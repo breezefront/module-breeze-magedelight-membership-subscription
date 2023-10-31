@@ -2,13 +2,13 @@
 
 ## Description
 
-This extension integrates storefront features of Membership Subscription extension form Magedelight  vendor.
+This extension integrates storefront features of Membership Subscription extension form Magedelight vendor.
 
 Tested with Magedelight MembershipSubscription verion 2.0.3.
 
 ## Installation
 
 ```bash
-composer require swissup/module-breeze-mage_delight-membershipsubscription
+composer require swissup/module-breeze-magedelight-membership-subscription
 bin/magento setup:upgrade --safe-mode=1
 ```

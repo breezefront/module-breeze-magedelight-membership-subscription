@@ -1,0 +1,18 @@
+<?php
+    $blockTemplateFile = $block->getTemplateFile(
+        'Magedelight_MembershipSubscription::product/view/options.phtml'
+    );
+?>
+<?= str_replace(
+    [
+        '<script ',
+        '$(document).ready(',
+        '$("#durationoption").change('
+    ],
+    [
+        '<script data-breeze ',
+        '$(document).on(\'breeze:load\', ',
+        '$("#durationoption").on(\'change\', '
+    ],
+    $block->fetchView($blockTemplateFile))
+?>

@@ -1,0 +1,16 @@
+<?php
+    $blockTemplateFile = $block->getTemplateFile(
+        'Magedelight_MembershipSubscription::Membership/plan.phtm'
+    );
+?>
+<?= str_replace(
+    [
+        '<script>',
+        '$(document).ready('
+    ],
+    [
+        '<script data-breeze>',
+        '$(document).on(\'breeze:load\', '
+    ],
+    $block->fetchView($blockTemplateFile))
+?>

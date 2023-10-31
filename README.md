@@ -1,4 +1,4 @@
-# WeltPixel GA4 Integration
+# Magedelight Membership Subscription Integration
 
 ## Description
 

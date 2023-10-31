@@ -6,6 +6,9 @@
     "license": [
         "OSL-3.0"
     ],
+    "require": {
+        "swissup/module-breeze": "^2.8.5"
+    },
     "autoload": {
         "files": [
             "registration.php"

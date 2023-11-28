@@ -2,12 +2,12 @@
     "name": "swissup/module-breeze-magedelight-membership-subscription",
     "description": "Magedelight MembershipSubscription integration with Breeze Frontend",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "OSL-3.0"
     ],
     "require": {
-        "swissup/module-breeze": "^2.8.5"
+        "swissup/module-breeze": "^2.11.0"
     },
     "autoload": {
         "files": [

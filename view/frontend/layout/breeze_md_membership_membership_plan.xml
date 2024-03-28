@@ -5,7 +5,7 @@
         <referenceBlock name="my_membership_plan">
             <action method="setTemplate">
                 <argument name="template" xsi:type="string">
-                    Swissup_BreezeMagedelightMembershipSubscription::Membership/plan.phtm
+                    Swissup_BreezeMagedelightMembershipSubscription::Membership/plan.phtml
                 </argument>
             </action>
         </referenceBlock>
